@@ -1,6 +1,25 @@
 {
   "name": "angular-weather-any-degree",
   "version": "0.0.1",
+  "description": "this package is used to show a simple weather, which we can change the type of degree",
+  "author": {
+    "name": "Behrang Noruzi Niya",
+    "email": "behrangn@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Celcious",
+    "Farenhite",
+    "Kalvin",
+    "Weather",
+    "Angular"
+  ],
+
+  "homepage": "https://github.com/mahdiataey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahdiataey/Angular-weather-any-degree.git"
+  },
   "peerDependencies": {
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0"
