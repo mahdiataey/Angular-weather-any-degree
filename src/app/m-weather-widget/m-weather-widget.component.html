@@ -1,0 +1,22 @@
+<span *ngIf="!isLoading">
+  <div id="divWeatherMain" *ngIf="!isLoading">
+    <!-- <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
+      <i class="fas fa-3x fa-sun sun"></i>
+  </div>
+  <div *ngIf="!WeatherData.isDay" class="weatherWidgetRow">
+      <i class="fas fa-3x fa-moon moon"></i>
+  </div>
+  <div class="weatherWidgetRow cloudDiv">
+    <i class="fas fa-cloud fa-3x cloud"></i>
+  </div> -->
+    <div *ngIf="!isLoading"><img src="{{icon}}"></div>
+    <div class="weatherWidgetRow" style="font-size: 3em;margin-top: 5px;" *ngIf="WeatherData.temp_celcius!=null||WeatherData.temp_celcius!=undefined">{{WeatherData.temp_celcius}}°C</div>
+    <div class="weatherWidgetRow" style="font-size: 1em;"*ngIf="WeatherData.temp_max!=null||WeatherData.temp_max!=undefined">{{WeatherData.temp_max}}° / {{WeatherData.temp_max}}°</div>
+    <div class="weatherWidgetRow" style="font-size: 1em;" *ngIf="WeatherData.temp_feels_like!=null||WeatherData.temp_feels_like!=undefined">Feels Like: {{WeatherData.temp_feels_like}}°</div>
+    <div class="weatherWidgetRow" style="font-size: 1.5em;margin-top: 10px;" *ngIf="WeatherData.name!=null||WeatherData.name!=undefined">{{WeatherData.name}}</div>
+    <div class="weatherWidgetRow" style="font-size: 1em;" *ngIf="WeatherData.main.humidity!=null||WeatherData.main.humidity!=undefined">Humidity: {{WeatherData.main.humidity}}%</div>
+
+  </div>
+
+
+</span>

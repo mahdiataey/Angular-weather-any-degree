@@ -1,0 +1,35 @@
+/* common styles */
+
+p{
+  padding: 0;
+  margin: 0;
+  word-break: break-all;
+}
+
+/* main styles */
+
+.container{
+  border-color: black;
+  padding: 20px;
+  font-family: 'roboto';
+  text-align: center;
+  justify-content: center;
+  .temp{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .details{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    .wind{
+      padding-left: 10px;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+}
