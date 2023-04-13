@@ -1,6 +1,6 @@
 {
   "name": "angular-weather-any-degree",
-  "version": "0.0.2",
+  "version": "0.0.14",
   "description": "this package is used to show a simple weather, which we can change the type of degree",
   "author": {
     "name": "Mahdy Ataey",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/mahdiataey",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mahdiataey/Angular-weather-any-degree.git"
+    "url": "https://github.com/mahdiataey/my-weather-example.git"
   },
   "peerDependencies": {
     "@angular/common": "^15.1.0",

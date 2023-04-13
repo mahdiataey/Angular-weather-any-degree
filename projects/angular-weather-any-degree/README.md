@@ -2,6 +2,7 @@
 
 ![alt text](https://user-images.githubusercontent.com/36917283/231538911-3b203515-bf8c-467d-a8bd-ba2624a2cb09.PNG)
 
+[Demo](https://mahdiataey.github.io/my-weather-example/)
 
 Angular Weather any degree package  for web applications . Easy and Highly customisable.
 
@@ -66,7 +67,7 @@ The following list of properties are supported by the component.
 
 | Property         |Type    | Description            | Default Value |
 |:--- |:--- |:--- |:--- |
-|Units	|string	|Kalvin,Imperial(Farenhite), Celcious|
+|Units	|string	|metric(Celcious), Kalvin,Imperial(Farenhite)|
 |UnitSymbol	|string	|K-->Kalvin, F-->Farenhite, C-->Cilcious|
 | APIKEY | String | API key from APIUX | APIKEY |
 | width | String | Width of the weather card  | 280px |
